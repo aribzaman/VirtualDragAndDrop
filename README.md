@@ -16,6 +16,7 @@ This project demonstrates the capabilities of computer vision and hand tracking.
 
 - Python 3.x
 - OpenCV (`pip install opencv-python`)
+- Mediapipe
 - [cvzone](https://github.com/cvzone/cvzone) library (for Hand Tracking)
 
 ## How to Use
@@ -35,25 +36,23 @@ This project demonstrates the capabilities of computer vision and hand tracking.
    ```shell
    python main.py
 
-4. Use your webcam and hands to control and interact with the draggable rectangles.
+4. Use your webcam and hands to control and interact with the draggable rectangles. To hold a rectangle, you need to join your index finger and the middle finger - keeping the fingers in the same position, you can move the rectangles and likewise to drop it, you separate your fingers.
 
-To hold a rectangle, you need to join your index finger and the middle finger - keeping the fingers in the same position, you can move the rectangles and liekwise to drop it, you separate your fingers.
-
-5. To quit Press the 'Q' key on your keyboard.
+5. To quit - Press the 'Q' key on your keyboard.
 
 ## Customization
 
 - You can customize the number and properties of the draggable rectangles by modifying the rectList in the main.py script.
-- Comment the Solid Rectangle box Section and Uncomment the Transparent Rectangle section to decrease the Opacity of the rectangles making it transparent
+- Comment the Solid Rectangle box Section and Uncomment the Transparent Rectangle section to decrease the Opacity of the rectangles making them transparent
 
 ## Add-Ons
-- Two additional files are present to demonstrate how the application works under the hood.
-   1. **HandDetector** *(To demonstarte how the entire hand is mapped)*
+- Two additional files to demonstrate how the application works under the hood.
+   1. **HandDetector** *(To demonstrate how the entire hand is mapped)*
    2. **FingerTipTutorial** *(To display how a hand landmark is detected by changing the rectangle color when you bring your fingertip within it)*
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/aribzaman/VirtualDragAndDrop/blob/main/LICENSE) file for details.
 
 ## Acknowledgment
 
